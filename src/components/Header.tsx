@@ -17,7 +17,7 @@ export default function Header() {
         <div className="container mx-auto px-4">
           <ul className="flex flex-wrap space-x-6 py-3">
             <li>
-              <Link to="/" className="text-white hover:text-primary-200 transition-colors antialiased ml-10">
+              <Link to="/Xolve" className="text-white hover:text-primary-200 transition-colors antialiased ml-10">
                 Ana Sayfa
               </Link>
             </li>
