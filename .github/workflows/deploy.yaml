@@ -28,7 +28,12 @@ jobs:
       - name: Build site
         run: npm run build
 
-      # Step 5: Deploy to GitHub Pages
+      #Step 5: Add 404.html
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
+
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
