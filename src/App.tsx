@@ -16,7 +16,7 @@ function App() {
         <Header />
         <main className="flex-grow container mx-auto px-4 py-8 mb-auto">
           <Routes>
-            <Route path="/" element={<HomePage />} />
+            <Route path="/Xolve" element={<HomePage />} />
             <Route path="/test" element={<TestModule />} />
             <Route path="/shapes" element={<GeometricShapes />} />
             <Route path="/articles" element={<Articles />} />
