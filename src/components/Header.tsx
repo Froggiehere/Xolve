@@ -51,6 +51,11 @@ export default function Header() {
                 Makaleler
               </Link>
             </li>
+            <li>
+              <Link to="/lecture" className="text-white hover:text-primary-200 transition-colors antialiased">
+                Konu Anlatımı
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>

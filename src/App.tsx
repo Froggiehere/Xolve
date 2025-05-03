@@ -8,6 +8,7 @@ import Articles from './pages/Articles';
 import Calculator from './pages/Calculator';
 import FormulasPage from './pages/FormulasPage';
 import StudyTools from './pages/StudyTools';
+import Lecture from './pages/Lecture';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/calculator" element={<Calculator />} />
             <Route path="/formulas" element={<FormulasPage />} />
             <Route path="/study-tools" element={<StudyTools />} />
+            <Route path="/lecture" element={<Lecture />} />
           </Routes>
         </main>
         <Footer />

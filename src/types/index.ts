@@ -35,3 +35,11 @@ export interface Article {
   category: string;
   date: string;
 }
+export interface Lecture {
+  id: number;
+  title: string;
+  preview: string;
+  content: string;
+  category: string;
+  date: string;
+}
