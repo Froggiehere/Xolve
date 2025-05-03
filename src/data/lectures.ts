@@ -1,4 +1,6 @@
-  export const lectures: Lecture[] = [
+import { Lecture } from '../types';
+
+export const lectures: Lecture[] = [
     {
       id: 1,
       title: "Cebir Nedir?",
