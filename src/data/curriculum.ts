@@ -74,70 +74,70 @@ export const curriculum: Unit[] = [
           text: "48 ve 72 sayılarının EBOB’u kaçtır?",
           options: ["6", "8", "12", "24", "36"],
           correctAnswer: 3,
-          video: "../xolve/videos/1.mp4"
+          video: "../Xolve/videos/1.mp4"
         },
         {
           id: 2,
           text: "36 sayısının asal çarpanlara ayrılmış hali aşağıdakilerden hangisidir?",
           options: ["2² × 3²", "2 × 3 × 6", "3³ × 2", "2 × 3²", "3 x 2²"],
           correctAnswer: 0,
-          video: "../xolve/videos/2.mp4"
+          video: "../Xolve/videos/2.mp4"
         },
         {
           id: 3,
           text: "60 ve 90 sayılarının EKOK’u kaçtır?",
           options: ["120", "180", "360", "90", "600"],
           correctAnswer: 1,
-          video: "../xolve/videos/3.mp4"
+          video: "../Xolve/videos/3.mp4"
         },
         {
           id: 4,
           text: "Aşağıdaki sayılardan hangisi 3 ile tam bölünemez?",
           options: ["123", "321", "475", "111", "855"],
           correctAnswer: 2,
-          video: "../xolve/videos/4.mp4"
+          video: "../Xolve/videos/4.mp4"
         },
         {
           id: 5,
           text: "2, 3 ve 5 ile tam bölünebilen en küçük üç basamaklı sayı aşağıdakilerden hangisidir?",
           options: ["105", "120", "150", "180", "270"],
           correctAnswer: 1,
-          video: "../xolve/videos/5.mp4"
+          video: "../Xolve/videos/5.mp4"
         },
         {
           id: 6,
           text: "84 sayısının pozitif tam bölenlerinin toplamı kaçtır?",
           options: ["168", "196", "210", "224", "248"],
           correctAnswer: 3,
-          video: "../xolve/videos/6.mp4"
+          video: "../Xolve/videos/6.mp4"
         },
         {
           id: 7,
           text: "Aşağıdaki sayılardan hangisi 4 ile bölünebilir?",
           options: ["124", "135", "146", "152", "165"],
           correctAnswer: 3,
-          video: "../xolve/videos/7.mp4"
+          video: "../Xolve/videos/7.mp4"
         },
         {
           id: 8,
           text: "2⁴ × 3 × 5² sayısının kaç farklı pozitif tam böleni vardır?",
           options: ["15", "18", "20", "24", "30"],
           correctAnswer: 4,
-          video: "../xolve/videos/8.mp4"
+          video: "../Xolve/videos/8.mp4"
         },
         {
           id: 9,
           text: "Bir sayının 10 ile tam bölünebilmesi için aşağıdakilerden hangisi gereklidir?",
           options: ["Sonu 0 ya da 5 olmalı", "Sonu 0 olmalı", "Rakamları toplamı 10 olmalı", "Çift sayı olmalı", "Böyle bir kural yoktur"],
           correctAnswer: 1,
-          video: "../xolve/videos/9.mp4"
+          video: "../Xolve/videos/9.mp4"
         },
         {
           id: 10,
           text: "Aşağıdaki sayılardan hangisi hem 2 hem de 3 ile tam bölünür?",
           options: ["72", "45", "25", "34", "68"],
           correctAnswer: 0,
-          video: "../xolve/videos/10.mp4"
+          video: "../Xolve/videos/10.mp4"
         }
       ]
     },
