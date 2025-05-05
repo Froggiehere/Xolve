@@ -90,16 +90,21 @@ export default function TestModule() {
                   <div className="text-red-600 font-medium mb-4">
                     Doğru cevap: {question.options[question.correctAnswer]}
                   </div>
-                  <div className="bg-gray-100 p-4 rounded-lg">
-                    <p className="text-gray-600 mb-2">Açıklama:</p>
-                    <p>{question.explanation}</p>
-                  </div>
-                  <div className="mt-4 bg-blue-50 p-4 rounded-lg">
-                    <p className="text-blue-600 font-medium">Video Açıklaması</p>
-                    <div className="aspect-w-16 aspect-h-9 mt-2 bg-gray-200 rounded-lg flex items-center justify-center">
-                      <p className="text-gray-600">Video eklenecek</p>
+                  {/* Video explanation section */}
+                  {question.video && (
+                    <div className="mt-4 bg-blue-50 p-4 rounded-lg">
+                      <p className="text-blue-600 font-medium mb-2">Video Açıklaması</p>
+                      <div className="aspect-w-16 aspect-h-9 mt-2 bg-gray-200 rounded-lg">
+                        <video 
+                          controls 
+                          className="w-full h-full rounded-lg"
+                          src={question.video}
+                        >
+                          Tarayıcınız video etiketini desteklemiyor.
+                        </video>
+                      </div>
                     </div>
-                  </div>
+                  )}
                 </div>
               )}
             </div>
