@@ -17,19 +17,19 @@ export default function HomePage() {
         </p>
       </section>
       <div className="grid md:grid-cols-3 gap-6 mb-12">
-        <Link to="/test" className="card group">
+        <Link to="/Xolve/test" className="card group">
           <CalculatorIcon className="h-12 w-12 text-blue-600 mb-4 mx-auto" />
           <h2 className="text-xl font-semibold text-center mb-2">Test Çözmeye Başla</h2>
           <p className="text-gray-600 text-center">Konulara göre düzenlenmiş testlerle kendini değerlendir.</p>
         </Link>
 
-        <Link to="/shapes" className="card group">
+        <Link to="/Xolve/shapes" className="card group">
           <BeakerIcon className="h-12 w-12 text-blue-600 mb-4 mx-auto" />
           <h2 className="text-xl font-semibold text-center mb-2">Geometrik Şekiller</h2>
           <p className="text-gray-600 text-center">Temel geometrik şekilleri ve özelliklerini keşfet.</p>
         </Link>
 
-        <Link to="/articles" className="card group">
+        <Link to="/Xolve/articles" className="card group">
           <BookOpenIcon className="h-12 w-12 text-blue-600 mb-4 mx-auto" />
           <h2 className="text-xl font-semibold text-center mb-2">Makaleler</h2>
           <p className="text-gray-600 text-center">Bilim ve matematik hakkında ilgi çekici içerikler.</p>
@@ -43,7 +43,7 @@ export default function HomePage() {
             <h3 className="text-xl font-semibold mb-2">{featuredArticle.title}</h3>
             <p className="text-gray-600 mb-4">{featuredArticle.preview}</p>
             <Link 
-              to="/articles" 
+              to="/Xolve/articles" 
               className="inline-block bg-primary-600 text-white px-6 py-2 rounded-lg hover:bg-primary-700 transition-colors"
             >
               Devamını Oku

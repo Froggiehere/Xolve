@@ -18,13 +18,13 @@ function App() {
         <main className="flex-grow container mx-auto px-4 py-8 mb-auto">
           <Routes>
             <Route path="/Xolve" element={<HomePage />} />
-            <Route path="/test" element={<TestModule />} />
-            <Route path="/shapes" element={<GeometricShapes />} />
-            <Route path="/articles" element={<Articles />} />
-            <Route path="/calculator" element={<Calculator />} />
-            <Route path="/formulas" element={<FormulasPage />} />
-            <Route path="/study-tools" element={<StudyTools />} />
-            <Route path="/lecture" element={<Lecture />} />
+            <Route path="/Xolve/test" element={<TestModule />} />
+            <Route path="/Xolve/shapes" element={<GeometricShapes />} />
+            <Route path="/Xolve/articles" element={<Articles />} />
+            <Route path="/Xolve/calculator" element={<Calculator />} />
+            <Route path="/Xolve/formulas" element={<FormulasPage />} />
+            <Route path="/Xolve/study-tools" element={<StudyTools />} />
+            <Route path="/Xolve/lecture" element={<Lecture />} />
           </Routes>
         </main>
         <Footer />
