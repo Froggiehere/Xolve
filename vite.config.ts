@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Xolve', // 👈 This is key to prevent broken paths in production
+  base: '/', // 👈 This is key to prevent broken paths in production
 });
