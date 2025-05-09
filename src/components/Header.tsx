@@ -22,37 +22,37 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/test" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/test" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Testler
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/shapes" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/shapes" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Geometrik Şekiller
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/calculator" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/calculator" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Hesap Makinesi
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/formulas" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/formulas" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Formül Listesi
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/study-tools" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/study-tools" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Çalışma Araçları
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/articles" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/articles" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Makaleler
               </Link>
             </li>
             <li>
-              <Link to="/Xolve/lecture" className="text-white hover:text-primary-200 transition-colors antialiased">
+              <Link to="/lecture" className="text-white hover:text-primary-200 transition-colors antialiased">
                 Konu Anlatımı
               </Link>
             </li>
